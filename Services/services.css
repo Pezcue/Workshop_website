@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@
     
   }
   
-  /* Barra de navegacion */
+   Barra de navegacion 
   
   nav {
     display: flex;
@@ -69,7 +69,7 @@
     font-weight: bold;
   }
   
-  /* Body */
+  /* Body 
   
   h1 {
       text-transform: uppercase;
@@ -141,9 +141,139 @@
       margin: 3rem;
   }
 
+ */
 
-  
- 
-  
-  
-  
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', 'Moirai One', 'Poppins', sans-serif;
+}
+
+body {
+  background-color: rgb(227, 113, 174);
+  color: rgb(193, 193, 193);
+}
+
+/* Barra de navegacion */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 2rem;
+  flex-wrap: wrap;
+  font-size: 1.10rem;
+}
+
+nav h1 {
+  color: black;
+  text-align: left;
+  font-family: 'Moirai One', cursive;
+  font-size: 3rem;
+}
+
+nav h1:hover {
+  color: rgb(232, 87, 174);
+}
+
+.left a,
+.right a {
+  text-decoration: none;
+}
+
+.right a {
+  color: rgb(232, 87, 174);
+  transition: 200ms all ease-in-out;
+}
+
+.right a:hover {
+  color: rgb(167, 87, 232);
+}
+
+.right a:active {
+  color: rgb(255, 187, 0);
+}
+
+nav div {
+  width: 50%;
+  min-width: 300px;
+}
+
+.right ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+/* Body */
+
+h1 {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 800;
+}
+
+h2 {
+  color: rgb(123, 111, 75);
+  font-weight: 200;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h3 {
+  color: blanchedalmond;
+  font-size: 1.5rem;
+}
+
+span {
+  color: rgb(42, 42, 42);
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: dotted;
+}
+
+.container ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 6% 0;
+  width: 100%;
+}
+
+.container li {
+  max-width: 200px;
+  border: 3px solid rgb(255, 249, 167);
+  list-style-type: none;
+  padding: 2%;
+  transition: 300ms all ease-in-out;
+}
+
+.container li:hover {
+  background-color: rgb(255, 113, 184);
+  color: white;
+}
+
+p {
+  font-size: 70%;
+}
+
+.container {
+  background-color: rgb(247, 190, 104);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid white;
+  color: rgb(123, 105, 69);
+  padding: 2rem;
+  margin: 3rem;
+}
+
